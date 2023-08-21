@@ -1,0 +1,27 @@
+.Header {
+  background-color: aquamarine;
+  margin-bottom: 20px;
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px;
+  }
+  .text-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    padding: 5px;
+
+    .count-value {
+      color: white;
+      font-size: 10px;
+
+    }
+  }
+}
