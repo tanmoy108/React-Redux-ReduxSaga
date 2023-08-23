@@ -1,0 +1,11 @@
+.searchBox {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
+  input {
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+  }
+}
